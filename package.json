@@ -1,0 +1,32 @@
+{
+  "name": "images-to-pdf",
+  "version": "1.0.0",
+  "description": "The simple library to pack images of target folder into one PDF file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "images-to-pdf": "./dist/cli.js"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "pdfkit"
+  ],
+  "author": {
+    "name": "Wellwind",
+    "email": "wellwind@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/image-size": "^0.7.0",
+    "@types/node": "^10.12.24",
+    "@types/pdfkit": "^0.7.36"
+  },
+  "dependencies": {
+    "image-size": "^0.7.1",
+    "pdfkit": "^0.9.0"
+  }
+}
