@@ -1,6 +1,6 @@
 {
   "name": "images-pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The simple library to pack images of target folder into one PDF file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
