@@ -5,10 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "bin": {
-    "images-to-pdf": "./dist/cli.js"
+    "images-pdf": "./dist/cli.js"
   },
   "keywords": [
     "pdf",
