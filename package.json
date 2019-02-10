@@ -1,6 +1,6 @@
 {
-  "name": "images-to-pdf",
-  "version": "1.0.0",
+  "name": "images-pdf",
+  "version": "1.0.1",
   "description": "The simple library to pack images of target folder into one PDF file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,10 +15,7 @@
     "image",
     "pdfkit"
   ],
-  "author": {
-    "name": "Wellwind",
-    "email": "wellwind@gmail.com"
-  },
+  "author": "Wellwind <wellwind@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
@@ -34,5 +31,13 @@
     "commander": "^2.19.0",
     "image-size": "^0.7.1",
     "pdfkit": "^0.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellwind/images-to-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wellwind/images-to-pdf/issues"
+  },
+  "homepage": "https://github.com/wellwind/images-to-pdf#readme"
 }
