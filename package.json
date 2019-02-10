@@ -1,6 +1,6 @@
 {
   "name": "images-pdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The simple library to pack images of target folder into one PDF file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,6 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+
     "@types/image-size": "^0.7.0",
     "@types/node": "^10.12.24",
     "@types/pdfkit": "^0.7.36",
@@ -27,7 +29,6 @@
     "typescript": "^3.3.3"
   },
   "dependencies": {
-    "@types/commander": "^2.12.2",
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "image-size": "^0.7.1",
